@@ -2,19 +2,17 @@
     Uso de operadores lógicos:
 """
 
-a = True
-b = False
-
 print("NOT")
-print(not True)   # False  (Negación de True)
-print("AND")
-print(True and True) # False  (True AND False es False)
-print(True and False) # False  (True AND False es False)
-print(False and True) # False  (True AND False es False)
-print(False and False) # False  (True AND False es False)
-print("OR")
-print(True or True)  # True   (True OR False es True)
-print(True or False)  # True   (True OR False es True)
-print(False or True)  # True   (True OR False es True)
-print(False or False)  # True   (True OR False es True)
+print(not True)   # False  (Negación de True es False)
 
+print("AND")
+print(True and True)   # True  (Ambos valores son True, resultado True)
+print(True and False)  # False (Uno de los valores es False, resultado False)
+print(False and True)  # False (Uno de los valores es False, resultado False)
+print(False and False) # False (Ambos valores son False, resultado False)
+
+print("OR")
+print(True or True)   # True  (Al menos uno de los valores es True, resultado True)
+print(True or False)  # True  (Al menos uno de los valores es True, resultado True)
+print(False or True)  # True  (Al menos uno de los valores es True, resultado True)
+print(False or False) # False (Ambos valores son False, resultado False)
