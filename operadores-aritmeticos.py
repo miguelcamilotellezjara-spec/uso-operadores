@@ -2,7 +2,7 @@
     Uso de operadores aritméticos
 """
 
-a = 10
+a = 100
 b = 3
 
 print("Suma:", a + b)         # 13
@@ -12,3 +12,4 @@ print("División real:", a / b)  # 3.3333...
 print("División entera:", a // b) # 3
 print("Residuo:", a % b)       # 1
 print("Potenciación:", a ** b) # 1000 (10^3)
+
